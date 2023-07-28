@@ -1,0 +1,68 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', sans-serif;
+    background-color: rgb(238, 238, 238);
+    overflow: auto;
+}
+
+.navbar {
+    background-color: rgb(72, 33, 33);
+    padding: 16px;
+    color: rgb(238, 238, 238);
+    text-align: center;
+}
+.navbar > i {
+    padding: 4px;
+    font-size: 20px;
+}
+.navbar > h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 24px;
+}
+.navbar > i,
+.navbar > h2 {
+    display: inline;
+}
+
+.navigation-items {
+    margin-top: 12px;
+    display: block;
+}
+.navigation-items > a {
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: rgb(238, 238, 238);
+}
+.navigation-items > .current-page {
+    font-weight: 600;
+    border-bottom: solid;
+    border-color: rgb(71, 169, 146);
+}
+
+.hero-section h1 {
+    width: 50%;
+    font-size: 64px;
+    color: rgb(72, 33, 33);
+}
+.hero-section h1,
+.card-container {
+    padding: 32px;
+}
+
+.card {
+    display: inline-block;
+}
+.card img {
+    width: 16em;
+    height: 12em;
+    object-fit: cover;
+}
+.card a {
+    display: block;
+    color: rgb(72, 33, 33);
+}
+
